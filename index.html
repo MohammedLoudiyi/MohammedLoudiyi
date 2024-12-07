@@ -1,29 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <title>Mon CV - Nom Prénom</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chimiométrie & Spectroscopie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('background-image.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #0056b3;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #0056b3;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Nom Prénom</h1>
-    <p>Data Scientist | Chercheur en Spectrométrie et Chimiométrie</p>
+    <h1>Chimiométrie & Spectroscopie</h1>
+    <p>Explorez l'analyse avancée des données et les techniques spectroscopiques modernes.</p>
   </header>
-  <main>
-    <section id="cv">
-      <h2>Mon CV</h2>
-      <p>[Ajoutez ici un lien vers votre CV PDF]</p>
-    </section>
-    <section id="recherches">
-      <h2>Travaux de Recherche</h2>
-      <ul>
-        <li><a href="[lien vers publication 1]">Publication 1</a></li>
-        <li><a href="[lien vers publication 2]">Publication 2</a></li>
-      </ul>
-    </section>
-  </main>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#cv">Mon CV</a>
+    <a href="#research">Travaux de recherche</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>À propos</h2>
+    <p>La chimiométrie est un domaine scientifique qui combine les statistiques et les mathématiques pour interpréter les données chimiques. Couplée à des techniques de spectroscopie (NIR, Raman, UV-Vis, etc.), elle offre des solutions puissantes pour analyser et modéliser les phénomènes complexes.</p>
+  </section>
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <p>Vous pouvez consulter mon CV <a href="mon-cv.pdf" target="_blank">ici</a>.</p>
+  </section>
+  <section id="research">
+    <h2>Travaux de recherche</h2>
+    <ul>
+      <li><strong>Optimisation des spectromètres NIR miniaturisés :</strong> Développement d’algorithmes pour des applications industrielles.</li>
+      <li><strong>Chimiométrie avancée :</strong> Modélisation prédictive et transfert de calibration dans l’agroalimentaire.</li>
+      <li><strong>Analyse spectrale :</strong> Études moléculaires par spectroscopie Raman et infrarouge.</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:votre.email@example.com">votre.email@example.com</a></p>
+    <p>LinkedIn : <a href="https://linkedin.com/in/votreprofil" target="_blank">Votre Profil</a></p>
+  </section>
   <footer>
-    <p>Contact : [Votre email]</p>
+    <p>&copy; 2024 Nom Prénom - Tous droits réservés</p>
   </footer>
 </body>
 </html>
